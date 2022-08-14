@@ -1,0 +1,140 @@
+######################################################################################################################################################
+
+Confusion matrix SC #change box and mask
+
+####################################################################################################################################################
+
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_SC.py; 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.05 --output_coco_json;
+python run_coco_eval_SC.py 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.1 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.2 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.25 --output_coco_json
+python run_coco_eval_SC.py
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.3 --output_coco_json;
+python run_coco_eval_SC.py; 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.35 --output_coco_json;
+python run_coco_eval_SC.py 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.4 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.45 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.5 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.55 --output_coco_json
+python run_coco_eval_SC.py
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.6 --output_coco_json;
+python run_coco_eval_SC.py; 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.65 --output_coco_json;
+python run_coco_eval_SC.py 
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.7 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.75 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.8 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.85 --output_coco_json
+python run_coco_eval_SC.py
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.9 --output_coco_json;
+python run_coco_eval_SC.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0.95 --output_coco_json
+python run_coco_eval_SC.py
+
+####################################################################################################################################################
+
+Validation IoU
+
+####################################################################################################################################################
+
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_3_10000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_7_20000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_11_30000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_15_40000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_19_50000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_23_60000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_27_70000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_31_80000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_35_90000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_39_100000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_43_110000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_47_120000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_51_130000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_55_140000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_59_150000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_63_160000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_67_170000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_71_180000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_75_190000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+
+####################################################################################################################################################
+
+Test Synthetic Data Expeiment D
+
+####################################################################################################################################################
+
+python eval.py --trained_model=weights/ExperimentMarSyn/-/yolact_plus_resnet50_39_100000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/10%/yolact_plus_resnet50_39_110000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/20%/yolact_plus_resnet50_39_120000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/25%/yolact_plus_resnet50_39_125000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/30%/yolact_plus_resnet50_39_130000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/35%/yolact_plus_resnet50_39_135000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/40%/yolact_plus_resnet50_39_140000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ExperimentMarSyn/50%/yolact_plus_resnet50_39_150000.pth --score_threshold=0.15 --output_coco_json;
+python run_coco_eval_IoU.py;
+
+####################################################################################################################################################
+
+Test Synthetic Data Expeiment A
+
+####################################################################################################################################################
+
+python eval.py --trained_model=weights/ResNet50_batch6/yolact_plus_resnet50_99_330000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet101_batch6/yolact_plus_base_99_330000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+
+####################################################################################################################################################
+
+Test Synthetic Data Expeiment B
+
+####################################################################################################################################################
+
+python eval.py --trained_model=weights/ResNet50_batch8_withoutDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+python eval.py --trained_model=weights/ResNet50_batch8_withDA/yolact_plus_resnet50_79_200000.pth --score_threshold=0 --output_coco_json;
+python run_coco_eval_IoU.py;
+
+
